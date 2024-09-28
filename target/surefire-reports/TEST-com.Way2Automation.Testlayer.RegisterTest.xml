@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.Way2Automation.Testlayer.RegisterTest" time="75.358" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Largest_project\FlipkartProject\target\test-classes;D:\Largest_project\FlipkartProject\target\classes;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-java\4.24.0\selenium-java-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-api\4.24.0\selenium-api-4.24.0.jar;C:\Users\DELL\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.24.0\selenium-chrome-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.24.0\selenium-chromium-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-json\4.24.0\selenium-json-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.24.0\selenium-manager-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.24.0\selenium-devtools-v126-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.24.0\selenium-devtools-v127-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.24.0\selenium-devtools-v128-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.24.0\selenium-devtools-v85-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.24.0\selenium-edge-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.24.0\selenium-firefox-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-http\4.24.0\selenium-http-4.24.0.jar;C:\Users\DELL\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.24.0\selenium-ie-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.24.0\selenium-remote-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\DELL\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\DELL\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DELL\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\DELL\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\DELL\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api\1.41.0\opentelemetry-api-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-context\1.41.0\opentelemetry-context-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.41.0\opentelemetry-exporter-logging-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.41.0\opentelemetry-sdk-common-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.41.0\opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.41.0\opentelemetry-sdk-extension-autoconfigure-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.41.0-alpha\opentelemetry-api-incubator-1.41.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.41.0\opentelemetry-sdk-trace-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.41.0\opentelemetry-sdk-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.41.0\opentelemetry-sdk-metrics-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.41.0\opentelemetry-sdk-logs-1.41.0.jar;C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy\1.15.0\byte-buddy-1.15.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-os\4.24.0\selenium-os-4.24.0.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.24.0\selenium-safari-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-support\4.24.0\selenium-support-4.24.0.jar;C:\Users\DELL\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\DELL\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\DELL\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\DELL\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\DELL\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\DELL\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\DELL\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\DELL\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\DELL\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\DELL\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\DELL\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\DELL\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\DELL\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\DELL\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire11778418190761143540\surefirebooter-20240928204759597_3.jar C:\Users\DELL\AppData\Local\Temp\surefire11778418190761143540 2024-09-28T20-47-58_237-jvmRun1 surefire-20240928204759597_1tmp surefire_0-20240928204759597_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Largest_project\FlipkartProject\target\test-classes;D:\Largest_project\FlipkartProject\target\classes;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-java\4.24.0\selenium-java-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-api\4.24.0\selenium-api-4.24.0.jar;C:\Users\DELL\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.24.0\selenium-chrome-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.24.0\selenium-chromium-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-json\4.24.0\selenium-json-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.24.0\selenium-manager-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.24.0\selenium-devtools-v126-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.24.0\selenium-devtools-v127-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.24.0\selenium-devtools-v128-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.24.0\selenium-devtools-v85-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.24.0\selenium-edge-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.24.0\selenium-firefox-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-http\4.24.0\selenium-http-4.24.0.jar;C:\Users\DELL\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.24.0\selenium-ie-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.24.0\selenium-remote-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\DELL\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\DELL\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DELL\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\DELL\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\DELL\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api\1.41.0\opentelemetry-api-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-context\1.41.0\opentelemetry-context-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.41.0\opentelemetry-exporter-logging-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.41.0\opentelemetry-sdk-common-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.41.0\opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.41.0\opentelemetry-sdk-extension-autoconfigure-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.41.0-alpha\opentelemetry-api-incubator-1.41.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.41.0\opentelemetry-sdk-trace-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.41.0\opentelemetry-sdk-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.41.0\opentelemetry-sdk-metrics-1.41.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.41.0\opentelemetry-sdk-logs-1.41.0.jar;C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy\1.15.0\byte-buddy-1.15.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-os\4.24.0\selenium-os-4.24.0.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.24.0\selenium-safari-driver-4.24.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-support\4.24.0\selenium-support-4.24.0.jar;C:\Users\DELL\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\DELL\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\DELL\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\DELL\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\DELL\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\DELL\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\DELL\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\DELL\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\DELL\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\DELL\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\DELL\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\DELL\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\DELL\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\DELL\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\DELL"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="D:\Largest_project\FlipkartProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire11778418190761143540\surefirebooter-20240928204759597_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="DELL"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\DELL\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\DELL\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="D:\Largest_project\FlipkartProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-17/bin/server;C:/Program Files/Java/jdk-17/bin;C:\app\DELL\product\21c\dbhomeXE\bin;D:\Oracle\WINDOWS.X64_193000_db_home\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.3\bin;C:\Program Files\nodejs\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\OneDrive\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="validateragistrationtest" classname="com.Way2Automation.Testlayer.RegisterTest" time="70.975">
+    <system-out><![CDATA[ INFO [main] (TestBase.java:26)- FrameworkStarted
+ INFO [main] (TestBase.java:56)- browser is lauched with website,coockies are deleted
+ INFO [main] (Dropdownhandling.java:20)- 239
+ INFO [main] (Dropdownhandling.java:25)- Afghanistan
+ INFO [main] (Dropdownhandling.java:25)- Albania
+ INFO [main] (Dropdownhandling.java:25)- Algeria
+ INFO [main] (Dropdownhandling.java:25)- American Samoa
+ INFO [main] (Dropdownhandling.java:25)- Andorra
+ INFO [main] (Dropdownhandling.java:25)- Angola
+ INFO [main] (Dropdownhandling.java:25)- Anguilla
+ INFO [main] (Dropdownhandling.java:25)- Antarctica
+ INFO [main] (Dropdownhandling.java:25)- Antigua and Barbuda
+ INFO [main] (Dropdownhandling.java:25)- Argentina
+ INFO [main] (Dropdownhandling.java:25)- Armenia
+ INFO [main] (Dropdownhandling.java:25)- Aruba
+ INFO [main] (Dropdownhandling.java:25)- Australia
+ INFO [main] (Dropdownhandling.java:25)- Austria
+ INFO [main] (Dropdownhandling.java:25)- Azerbaijan
+ INFO [main] (Dropdownhandling.java:25)- Bahamas
+ INFO [main] (Dropdownhandling.java:25)- Bahrain
+ INFO [main] (Dropdownhandling.java:25)- Bangladesh
+ INFO [main] (Dropdownhandling.java:25)- Barbados
+ INFO [main] (Dropdownhandling.java:25)- Belarus
+ INFO [main] (Dropdownhandling.java:25)- Belgium
+ INFO [main] (Dropdownhandling.java:25)- Belize
+ INFO [main] (Dropdownhandling.java:25)- Benin
+ INFO [main] (Dropdownhandling.java:25)- Bermuda
+ INFO [main] (Dropdownhandling.java:25)- Bhutan
+ INFO [main] (Dropdownhandling.java:25)- Bolivia
+ INFO [main] (Dropdownhandling.java:25)- Bosnia and Herzegowina
+ INFO [main] (Dropdownhandling.java:25)- Botswana
+ INFO [main] (Dropdownhandling.java:25)- Bouvet Island
+ INFO [main] (Dropdownhandling.java:25)- Brazil
+ INFO [main] (Dropdownhandling.java:25)- British Indian Ocean Territory
+ INFO [main] (Dropdownhandling.java:25)- Brunei Darussalam
+ INFO [main] (Dropdownhandling.java:25)- Bulgaria
+ INFO [main] (Dropdownhandling.java:25)- Burkina Faso
+ INFO [main] (Dropdownhandling.java:25)- Burundi
+ INFO [main] (Dropdownhandling.java:25)- Cambodia
+ INFO [main] (Dropdownhandling.java:25)- Cameroon
+ INFO [main] (Dropdownhandling.java:25)- Canada
+ INFO [main] (Dropdownhandling.java:25)- Cape Verde
+ INFO [main] (Dropdownhandling.java:25)- Cayman Islands
+ INFO [main] (Dropdownhandling.java:25)- Central African Republic
+ INFO [main] (Dropdownhandling.java:25)- Chad
+ INFO [main] (Dropdownhandling.java:25)- Chile
+ INFO [main] (Dropdownhandling.java:25)- China
+ INFO [main] (Dropdownhandling.java:25)- Christmas Island
+ INFO [main] (Dropdownhandling.java:25)- Cocos (Keeling) Islands
+ INFO [main] (Dropdownhandling.java:25)- Colombia
+ INFO [main] (Dropdownhandling.java:25)- Comoros
+ INFO [main] (Dropdownhandling.java:25)- Congo
+ INFO [main] (Dropdownhandling.java:25)- Congo, the Democratic Republic of the
+ INFO [main] (Dropdownhandling.java:25)- Cook Islands
+ INFO [main] (Dropdownhandling.java:25)- Costa Rica
+ INFO [main] (Dropdownhandling.java:25)- Cote d'Ivoire
+ INFO [main] (Dropdownhandling.java:25)- Croatia (Hrvatska)
+ INFO [main] (Dropdownhandling.java:25)- Cuba
+ INFO [main] (Dropdownhandling.java:25)- Cyprus
+ INFO [main] (Dropdownhandling.java:25)- Czech Republic
+ INFO [main] (Dropdownhandling.java:25)- Denmark
+ INFO [main] (Dropdownhandling.java:25)- Djibouti
+ INFO [main] (Dropdownhandling.java:25)- Dominica
+ INFO [main] (Dropdownhandling.java:25)- Dominican Republic
+ INFO [main] (Dropdownhandling.java:25)- East Timor
+ INFO [main] (Dropdownhandling.java:25)- Ecuador
+ INFO [main] (Dropdownhandling.java:25)- Egypt
+ INFO [main] (Dropdownhandling.java:25)- El Salvador
+ INFO [main] (Dropdownhandling.java:25)- Equatorial Guinea
+ INFO [main] (Dropdownhandling.java:25)- Eritrea
+ INFO [main] (Dropdownhandling.java:25)- Estonia
+ INFO [main] (Dropdownhandling.java:25)- Ethiopia
+ INFO [main] (Dropdownhandling.java:25)- Falkland Islands (Malvinas)
+ INFO [main] (Dropdownhandling.java:25)- Faroe Islands
+ INFO [main] (Dropdownhandling.java:25)- Fiji
+ INFO [main] (Dropdownhandling.java:25)- Finland
+ INFO [main] (Dropdownhandling.java:25)- France
+ INFO [main] (Dropdownhandling.java:25)- France, Metropolitan
+ INFO [main] (Dropdownhandling.java:25)- French Guiana
+ INFO [main] (Dropdownhandling.java:25)- French Polynesia
+ INFO [main] (Dropdownhandling.java:25)- French Southern Territories
+ INFO [main] (Dropdownhandling.java:25)- Gabon
+ INFO [main] (Dropdownhandling.java:25)- Gambia
+ INFO [main] (Dropdownhandling.java:25)- Georgia
+ INFO [main] (Dropdownhandling.java:25)- Germany
+ INFO [main] (Dropdownhandling.java:25)- Ghana
+ INFO [main] (Dropdownhandling.java:25)- Gibraltar
+ INFO [main] (Dropdownhandling.java:25)- Greece
+ INFO [main] (Dropdownhandling.java:25)- Greenland
+ INFO [main] (Dropdownhandling.java:25)- Grenada
+ INFO [main] (Dropdownhandling.java:25)- Guadeloupe
+ INFO [main] (Dropdownhandling.java:25)- Guam
+ INFO [main] (Dropdownhandling.java:25)- Guatemala
+ INFO [main] (Dropdownhandling.java:25)- Guinea
+ INFO [main] (Dropdownhandling.java:25)- Guinea-Bissau
+ INFO [main] (Dropdownhandling.java:25)- Guyana
+ INFO [main] (Dropdownhandling.java:25)- Haiti
+ INFO [main] (Dropdownhandling.java:25)- Heard and Mc Donald Islands
+ INFO [main] (Dropdownhandling.java:25)- Holy See (Vatican City State)
+ INFO [main] (Dropdownhandling.java:25)- Honduras
+ INFO [main] (Dropdownhandling.java:25)- Hong Kong
+ INFO [main] (Dropdownhandling.java:25)- Hungary
+ INFO [main] (Dropdownhandling.java:25)- Iceland
+ INFO [main] (Dropdownhandling.java:25)- India
+ INFO [main] (Dropdownhandling.java:25)- Indonesia
+ INFO [main] (Dropdownhandling.java:25)- Iran (Islamic Republic of)
+ INFO [main] (Dropdownhandling.java:25)- Iraq
+ INFO [main] (Dropdownhandling.java:25)- Ireland
+ INFO [main] (Dropdownhandling.java:25)- Israel
+ INFO [main] (Dropdownhandling.java:25)- Italy
+ INFO [main] (Dropdownhandling.java:25)- Jamaica
+ INFO [main] (Dropdownhandling.java:25)- Japan
+ INFO [main] (Dropdownhandling.java:25)- Jordan
+ INFO [main] (Dropdownhandling.java:25)- Kazakhstan
+ INFO [main] (Dropdownhandling.java:25)- Kenya
+ INFO [main] (Dropdownhandling.java:25)- Kiribati
+ INFO [main] (Dropdownhandling.java:25)- Korea, Democratic People's Republic of
+ INFO [main] (Dropdownhandling.java:25)- Korea, Republic of
+ INFO [main] (Dropdownhandling.java:25)- Kuwait
+ INFO [main] (Dropdownhandling.java:25)- Kyrgyzstan
+ INFO [main] (Dropdownhandling.java:25)- Lao People's Democratic Republic
+ INFO [main] (Dropdownhandling.java:25)- Latvia
+ INFO [main] (Dropdownhandling.java:25)- Lebanon
+ INFO [main] (Dropdownhandling.java:25)- Lesotho
+ INFO [main] (Dropdownhandling.java:25)- Liberia
+ INFO [main] (Dropdownhandling.java:25)- Libyan Arab Jamahiriya
+ INFO [main] (Dropdownhandling.java:25)- Liechtenstein
+ INFO [main] (Dropdownhandling.java:25)- Lithuania
+ INFO [main] (Dropdownhandling.java:25)- Luxembourg
+ INFO [main] (Dropdownhandling.java:25)- Macau
+ INFO [main] (Dropdownhandling.java:25)- Macedonia, The Former Yugoslav Republic of
+ INFO [main] (Dropdownhandling.java:25)- Madagascar
+ INFO [main] (Dropdownhandling.java:25)- Malawi
+ INFO [main] (Dropdownhandling.java:25)- Malaysia
+ INFO [main] (Dropdownhandling.java:25)- Maldives
+ INFO [main] (Dropdownhandling.java:25)- Mali
+ INFO [main] (Dropdownhandling.java:25)- Malta
+ INFO [main] (Dropdownhandling.java:25)- Marshall Islands
+ INFO [main] (Dropdownhandling.java:25)- Martinique
+ INFO [main] (Dropdownhandling.java:25)- Mauritania
+ INFO [main] (Dropdownhandling.java:25)- Mauritius
+ INFO [main] (Dropdownhandling.java:25)- Mayotte
+ INFO [main] (Dropdownhandling.java:25)- Mexico
+ INFO [main] (Dropdownhandling.java:25)- Micronesia, Federated States of
+ INFO [main] (Dropdownhandling.java:25)- Moldova, Republic of
+ INFO [main] (Dropdownhandling.java:25)- Monaco
+ INFO [main] (Dropdownhandling.java:25)- Mongolia
+ INFO [main] (Dropdownhandling.java:25)- Montserrat
+ INFO [main] (Dropdownhandling.java:25)- Morocco
+ INFO [main] (Dropdownhandling.java:25)- Mozambique
+ INFO [main] (Dropdownhandling.java:25)- Myanmar
+ INFO [main] (Dropdownhandling.java:25)- Namibia
+ INFO [main] (Dropdownhandling.java:25)- Nauru
+ INFO [main] (Dropdownhandling.java:25)- Nepal
+ INFO [main] (Dropdownhandling.java:25)- Netherlands
+ INFO [main] (Dropdownhandling.java:25)- Netherlands Antilles
+ INFO [main] (Dropdownhandling.java:25)- New Caledonia
+ INFO [main] (Dropdownhandling.java:25)- New Zealand
+ INFO [main] (Dropdownhandling.java:25)- Nicaragua
+ INFO [main] (Dropdownhandling.java:25)- Niger
+ INFO [main] (Dropdownhandling.java:25)- Nigeria
+ INFO [main] (Dropdownhandling.java:25)- Niue
+ INFO [main] (Dropdownhandling.java:25)- Norfolk Island
+ INFO [main] (Dropdownhandling.java:25)- Northern Mariana Islands
+ INFO [main] (Dropdownhandling.java:25)- Norway
+ INFO [main] (Dropdownhandling.java:25)- Oman
+ INFO [main] (Dropdownhandling.java:25)- Pakistan
+ INFO [main] (Dropdownhandling.java:25)- Palau
+ INFO [main] (Dropdownhandling.java:25)- Panama
+ INFO [main] (Dropdownhandling.java:25)- Papua New Guinea
+ INFO [main] (Dropdownhandling.java:25)- Paraguay
+ INFO [main] (Dropdownhandling.java:25)- Peru
+ INFO [main] (Dropdownhandling.java:25)- Philippines
+ INFO [main] (Dropdownhandling.java:25)- Pitcairn
+ INFO [main] (Dropdownhandling.java:25)- Poland
+ INFO [main] (Dropdownhandling.java:25)- Portugal
+ INFO [main] (Dropdownhandling.java:25)- Puerto Rico
+ INFO [main] (Dropdownhandling.java:25)- Qatar
+ INFO [main] (Dropdownhandling.java:25)- Reunion
+ INFO [main] (Dropdownhandling.java:25)- Romania
+ INFO [main] (Dropdownhandling.java:25)- Russian Federation
+ INFO [main] (Dropdownhandling.java:25)- Rwanda
+ INFO [main] (Dropdownhandling.java:25)- Saint Kitts and Nevis
+ INFO [main] (Dropdownhandling.java:25)- Saint LUCIA
+ INFO [main] (Dropdownhandling.java:25)- Saint Vincent and the Grenadines
+ INFO [main] (Dropdownhandling.java:25)- Samoa
+ INFO [main] (Dropdownhandling.java:25)- San Marino
+ INFO [main] (Dropdownhandling.java:25)- Sao Tome and Principe
+ INFO [main] (Dropdownhandling.java:25)- Saudi Arabia
+ INFO [main] (Dropdownhandling.java:25)- Senegal
+ INFO [main] (Dropdownhandling.java:25)- Seychelles
+ INFO [main] (Dropdownhandling.java:25)- Sierra Leone
+ INFO [main] (Dropdownhandling.java:25)- Singapore
+ INFO [main] (Dropdownhandling.java:25)- Slovakia (Slovak Republic)
+ INFO [main] (Dropdownhandling.java:25)- Slovenia
+ INFO [main] (Dropdownhandling.java:25)- Solomon Islands
+ INFO [main] (Dropdownhandling.java:25)- Somalia
+ INFO [main] (Dropdownhandling.java:25)- South Africa
+ INFO [main] (Dropdownhandling.java:25)- South Georgia and the South Sandwich Islands
+ INFO [main] (Dropdownhandling.java:25)- Spain
+ INFO [main] (Dropdownhandling.java:25)- Sri Lanka
+ INFO [main] (Dropdownhandling.java:25)- St. Helena
+ INFO [main] (Dropdownhandling.java:25)- St. Pierre and Miquelon
+ INFO [main] (Dropdownhandling.java:25)- Sudan
+ INFO [main] (Dropdownhandling.java:25)- Suriname
+ INFO [main] (Dropdownhandling.java:25)- Svalbard and Jan Mayen Islands
+ INFO [main] (Dropdownhandling.java:25)- Swaziland
+ INFO [main] (Dropdownhandling.java:25)- Sweden
+ INFO [main] (Dropdownhandling.java:25)- Switzerland
+ INFO [main] (Dropdownhandling.java:25)- Syrian Arab Republic
+ INFO [main] (Dropdownhandling.java:25)- Taiwan, Province of China
+ INFO [main] (Dropdownhandling.java:25)- Tajikistan
+ INFO [main] (Dropdownhandling.java:25)- Tanzania, United Republic of
+ INFO [main] (Dropdownhandling.java:25)- Thailand
+ INFO [main] (Dropdownhandling.java:25)- Togo
+ INFO [main] (Dropdownhandling.java:25)- Tokelau
+ INFO [main] (Dropdownhandling.java:25)- Tonga
+ INFO [main] (Dropdownhandling.java:25)- Trinidad and Tobago
+ INFO [main] (Dropdownhandling.java:25)- Tunisia
+ INFO [main] (Dropdownhandling.java:25)- Turkey
+ INFO [main] (Dropdownhandling.java:25)- Turkmenistan
+ INFO [main] (Dropdownhandling.java:25)- Turks and Caicos Islands
+ INFO [main] (Dropdownhandling.java:25)- Tuvalu
+ INFO [main] (Dropdownhandling.java:25)- Uganda
+ INFO [main] (Dropdownhandling.java:25)- Ukraine
+ INFO [main] (Dropdownhandling.java:25)- United Arab Emirates
+ INFO [main] (Dropdownhandling.java:25)- United Kingdom
+ INFO [main] (Dropdownhandling.java:25)- United States
+ INFO [main] (Dropdownhandling.java:25)- United States Minor Outlying Islands
+ INFO [main] (Dropdownhandling.java:25)- Uruguay
+ INFO [main] (Dropdownhandling.java:25)- Uzbekistan
+ INFO [main] (Dropdownhandling.java:25)- Vanuatu
+ INFO [main] (Dropdownhandling.java:25)- Venezuela
+ INFO [main] (Dropdownhandling.java:25)- Viet Nam
+ INFO [main] (Dropdownhandling.java:25)- Virgin Islands (British)
+ INFO [main] (Dropdownhandling.java:25)- Virgin Islands (U.S.)
+ INFO [main] (Dropdownhandling.java:25)- Wallis and Futuna Islands
+ INFO [main] (Dropdownhandling.java:25)- Western Sahara
+ INFO [main] (Dropdownhandling.java:25)- Yemen
+ INFO [main] (Dropdownhandling.java:25)- Yugoslavia
+ INFO [main] (Dropdownhandling.java:25)- Zambia
+ INFO [main] (Dropdownhandling.java:25)- Zimbabwe
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Sep 28, 2024 8:48:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+</testsuite>
